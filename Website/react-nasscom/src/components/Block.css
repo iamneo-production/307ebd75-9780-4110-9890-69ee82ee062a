@@ -1,0 +1,95 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.block-card {
+    /* background: url('C:/Users/arama/NASSCOM/nasscom/src/assests/bg.jpg')  no-repeat; */
+    height: 600px;
+    width: 100%;
+    /* height: 100vh;
+    width: 100%; */
+    /* background-color: #f8efcc; */
+    margin: 0%;
+    /* background-size: cover; */
+  }
+
+.prediction-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 80px;
+    /* background-color:red; */
+    margin: 40px 280px;
+  }
+
+  .image-container1{
+    height: 280px;
+  background-color: var(--primary);
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0%;
+  }
+
+  .image-container1 img{
+    width: 100%;
+  height: 100%;
+  transition: 0.3s linear;
+  }
+  .prediction-btn {
+    font-size: 15px;
+    padding: 20px 20px;
+    margin: 20px 100px;
+    border-radius: 50px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2ad86;
+    /* color: #f7cac9; */
+    width: 150px;
+    align-self: center;
+  }
+  .prediction-card:hover > button {
+    background-color: #ce5862;
+    color: black;
+    transition: 0.3s;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .prediction-card {
+    height: 380px;
+    width: 100%;
+    border: 2px solid #e6e6e6;
+    background-color:  #93deff;
+    /* padding: 70px 20px; */
+    justify-content: center;
+    font-family: serif;
+  }
+  .prediction-card:hover {
+    border: 2px solid #00204a;
+    box-shadow: 2px 2px 15px #888888;
+  }
+
+  .block-card h1  {
+    display: inline-flex;
+    border-bottom: 2px dotted black;
+    font-weight: none;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 10px;
+    font-style: oblique;
+    /* font-size: 50px; */
+    /* align-items: center; */
+  }
+  /* .block-card { */
+    /* margin-top: 30px; */
+    /* height: 800px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+  /* } */
+
+  
+  

@@ -1,0 +1,106 @@
+.gallery {
+    background: url('C:/Users/Sai Saran/Django Learn/NASSCOM/react-nasscom/src/assests/bg.jpg') center center/cover no-repeat;
+    /* background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%); */
+    height: 100%;
+    width: 100%;
+    /* background-color: #f8efcc; */
+    margin: 0%;
+  }
+
+  .teaam {
+    /* margin-top: 30px; */
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+  }
+  .outer-p {
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .teaam h1 {
+    display: inline-flex;
+    border-bottom: 2px dotted black;
+    font-weight: none;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 10px;
+    /* font-style: oblique; */
+    /* font-size: 50px; */
+    font-family: sans-serif;
+  }
+  .member-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+    /* background-color:red; */
+    margin: 20px 90px;
+  }
+  .member-card {
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    /* background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114)); */
+    /* padding: 70px 20px; */
+    border-radius: 5px;
+  }
+  .member-card img {
+    height: 40px;
+    width: 45px;
+   
+  }
+  .member-card h2 {
+    margin: 30px 0px;
+    align-content: center;
+    /* font-style: oblique; */
+    font-weight: 600;
+    font-family: sans-serif;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    color: white;
+    /* color: #e6e6e6; */
+  }
+  .member-card:hover {
+    border: 2px solid #00204a;
+    box-shadow: 2px 2px 15px #888888;
+  }
+
+
+  .image-container{
+    height: 400px;
+  /* background-color: var(--primary); */
+  background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0%;
+  }
+
+  .image-container img{
+    width: 100%;
+  height: 100%;
+  transition: 0.3s linear;
+  /* margin-top: 3px */
+  border-bottom: 1px solid black;
+  }
+
+  .booking-btn {
+    font-size: 15px;
+    padding: 15px 20px;
+    margin: 12px 100px;
+    border-radius: 50px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2ad86;
+    /* color: #f7cac9; */
+    width: 150px;
+  }
+  .service-card:hover > button {
+    background-color: #ce5862;
+    color: black;
+    transition: 0.3s;
+  }
+  button:hover {
+    cursor: pointer;
+  }

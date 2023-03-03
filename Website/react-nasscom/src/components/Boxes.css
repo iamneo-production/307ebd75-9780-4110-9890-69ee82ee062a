@@ -1,0 +1,115 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.boxes {
+    /* background: url('C:/Users/arama/NASSCOM/nasscom/src/assests/bg.jpg') center center/cover no-repeat; */
+    height: 100%;
+    width: 100%;
+    /* background-color: #f8efcc; */
+    margin: 0%;
+    
+  }
+
+  .service {
+    /* margin-top: 30px; */
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+  }
+  .outer-p {
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .service h1 {
+    display: inline-flex;
+    border-bottom: 2px dotted black;
+    font-weight: none;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: oblique;
+    /* font-size: 50px; */
+  }
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    /* background-color:red; */
+    margin: 20px 90px;
+  }
+  .service-card {
+    height: 300px;
+    width: 100%;
+    border: 2px solid  #e6e6e6;
+    background-color:  #93deff;
+    /* padding: 70px 20px; */
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+  .service-card img {
+    height: 40px;
+    width: 45px;
+   
+  }
+  .service-card h2 {
+    margin: 25px 0px;
+    align-content: center;
+  }
+  .service-card:hover {
+    border: 2px solid #00204a;
+    box-shadow: 2px 2px 15px #888888;
+  }
+
+  .service-cards1 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    /* background-color:red; */
+    margin: 20px 280px;
+  }
+
+  .image-container2{
+    height: 220px;
+  background-color: var(--primary);
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0%;
+  border-bottom: 2px solid  #e6e6e6;
+  }
+
+  .image-container2 img{
+    width: 100%;
+  height: 100%;
+  transition: 0.3s linear;
+  }
+  .booking-btn {
+    font-size: 15px;
+    padding: 15px 20px;
+    margin: 12px 100px;
+    border-radius: 50px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2ad86;
+    /* color: #f7cac9; */
+    width: 150px;
+  }
+  .service-card:hover > button {
+    background-color: #ce5862;
+    color: black;
+    transition: 0.3s;
+  }
+  button:hover {
+    cursor: pointer;
+  }
