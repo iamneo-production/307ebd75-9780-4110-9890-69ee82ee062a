@@ -1,0 +1,62 @@
+[
+ {
+   "Date": "Jan",
+   "AQI_calculated": 61,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Feb",
+   "AQI_calculated": 66,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Mar",
+   "AQI_calculated": 67,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Apr",
+   "AQI_calculated": 62,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "May",
+   "AQI_calculated": 57,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Jun",
+   "AQI_calculated": 60,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Jul",
+   "AQI_calculated": 58,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Aug",
+   "AQI_calculated": 59,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Sep",
+   "AQI_calculated": 58,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Oct",
+   "AQI_calculated": 60,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Nov",
+   "AQI_calculated": 61,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "Date": "Dec",
+   "AQI_calculated": 61,
+   "AQI_bucket_calculated": "Satisfactory"
+ }
+]

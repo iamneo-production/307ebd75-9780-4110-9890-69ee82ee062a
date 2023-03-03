@@ -1,0 +1,74 @@
+[
+ {
+   "FIELD1": 0,
+   "Date": "2023-01-31",
+   "AQI_calculated": 71,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 1,
+   "Date": "2023-02-28",
+   "AQI_calculated": 68,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 2,
+   "Date": "2023-03-31",
+   "AQI_calculated": 72,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 3,
+   "Date": "2023-04-30",
+   "AQI_calculated": 61,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 4,
+   "Date": "2023-05-31",
+   "AQI_calculated": 42,
+   "AQI_bucket_calculated": "Good"
+ },
+ {
+   "FIELD1": 5,
+   "Date": "2023-06-30",
+   "AQI_calculated": 57,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 6,
+   "Date": "2023-07-31",
+   "AQI_calculated": 56,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 7,
+   "Date": "2023-08-31",
+   "AQI_calculated": 65,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 8,
+   "Date": "2023-09-30",
+   "AQI_calculated": 79,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 9,
+   "Date": "2023-10-31",
+   "AQI_calculated": 82,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 10,
+   "Date": "2023-11-30",
+   "AQI_calculated": 95,
+   "AQI_bucket_calculated": "Satisfactory"
+ },
+ {
+   "FIELD1": 11,
+   "Date": "2023-12-31",
+   "AQI_calculated": 94,
+   "AQI_bucket_calculated": "Satisfactory"
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+   "FIELD1": 0,
+   "Month": "Jan",
+   "HeatWave": "NO",
+   "Max_Temp": "35.64069366455078"
+ },
+ {
+   "FIELD1": 1,
+   "Month": "Feb",
+   "HeatWave": "NO",
+   "Max_Temp": "38.506797790527344"
+ },
+ {
+   "FIELD1": 2,
+   "Month": "Mar",
+   "HeatWave": "NO",
+   "Max_Temp": "40.8921127319336"
+ },
+ {
+   "FIELD1": 3,
+   "Month": "Apr",
+   "HeatWave": "NO",
+   "Max_Temp": "42.50823974609375"
+ },
+ {
+   "FIELD1": 4,
+   "Month": "May",
+   "HeatWave": "NO",
+   "Max_Temp": "42.85252380371094"
+ },
+ {
+   "FIELD1": 5,
+   "Month": "Jun",
+   "HeatWave": "NO",
+   "Max_Temp": "41.05084991455078"
+ },
+ {
+   "FIELD1": 6,
+   "Month": "Jul",
+   "HeatWave": "NO",
+   "Max_Temp": "35.338741302490234"
+ },
+ {
+   "FIELD1": 7,
+   "Month": "Aug",
+   "HeatWave": "NO",
+   "Max_Temp": "34.42272186279297"
+ },
+ {
+   "FIELD1": 8,
+   "Month": "Sep",
+   "HeatWave": "NO",
+   "Max_Temp": "35.931026458740234"
+ },
+ {
+   "FIELD1": 9,
+   "Month": "Oct",
+   "HeatWave": "NO",
+   "Max_Temp": "36.62715148925781"
+ },
+ {
+   "FIELD1": 10,
+   "Month": "Nov",
+   "HeatWave": "NO",
+   "Max_Temp": "36.67399978637695"
+ },
+ {
+   "FIELD1": 11,
+   "Month": "Dec",
+   "HeatWave": "NO",
+   "Max_Temp": "35.499107360839844"
+ }
+]
