@@ -1,3 +1,12 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  font-family: sans-serif;
+}
+
 .gallery {
     background: url('C:/Users/Sai Saran/Django Learn/NASSCOM/react-nasscom/src/assests/bg.jpg') center center/cover no-repeat;
     /* background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%); */
@@ -20,7 +29,7 @@
   }
   .teaam h1 {
     display: inline-flex;
-    border-bottom: 2px dotted black;
+    border-bottom: 2px dotted white;
     font-weight: none;
     padding-bottom: 10px;
     padding-top: 30px;
@@ -28,6 +37,7 @@
     /* font-style: oblique; */
     /* font-size: 50px; */
     font-family: sans-serif;
+    color: white;
   }
   .member-cards {
     display: grid;
