@@ -1,0 +1,179 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.month-page{
+    /* background: url('C:/Users/arama/NASSCOM/nasscom/src/assests/bg.jpg') center center/cover no-repeat; */
+    height: 600px;
+    width: 100%;
+    /* background-color: #f8efcc; */
+    margin: 0%;
+    font-family: sans-serif;
+} 
+.month-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    /* background: url('C:/Users/arama/NASSCOM/nasscom/src/assests/bg.jpg') center center/cover no-repeat; */
+    margin: 40px 20px;
+    font-family: sans-serif;
+    
+  }
+
+  .month-left{
+    background-color: transparent;
+    background-size: contain;
+    border-style: dotted;
+    border-color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .month-right{
+    background-color: transparent;
+    border-style: dotted;
+    border-color: aliceblue;
+    text-align: center;
+    align-items: center;
+  }
+
+  .month-page h1 {
+    display: inline-flex;
+    text-align: center;
+    /* border-bottom: 2px dotted black; */
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 10px;
+    padding-left: 19em;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-style: oblique; */
+    font-family: sans-serif;
+  }
+  .month-page {
+    /* margin-top: 30px; */
+    height: 800px;
+    /* text-align: center; */
+    /* justify-content: center; */
+  }
+
+  .month-left h2{
+    display: inline-flex;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+  }
+  .month-right h2{
+    display: inline-flex;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: sans-serif;
+  }
+  .month-btn {
+    font-size: 15px;
+    padding: 15px 20px;
+    margin: 12px 40px;
+    border-radius: 50px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2ad86;
+    /* color: #f7cac9; */
+    width: 150px;
+    font-family: sans-serif;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+
+  .month-buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 2px;
+    /* background: url('C:/Users/arama/NASSCOM/nasscom/src/assests/bg.jpg') center center/cover no-repeat; */
+    margin: 20px 20px;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+  }
+
+  .value{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  height: 100px;
+  font-family: sans-serif;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 40px 0;
+    box-sizing: border-box;
+    height: 250px;
+    font-family: sans-serif;
+  }
+
+  .value{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 700;
+    
+  }
+  .location{
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+  }
+  .image-contain{
+    /* height: 5px;
+    width: 500px; */
+    padding: 10px;
+    margin-top: 20px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 160px;
+    font-family: sans-serif; */
+  }
+
+  .value a{
+    font-size: 16px;
+    align-content: center;
+    text-decoration: none;
+    /* background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%); */
+    /* padding: 50px; */
+    /* display: block; */
+    /* border: 2px solid white; */
+    /* color: white; */
+    /* margin-top: 250px; */
+    padding-top: 100px;
+    /* font-weight: 500; */
+    font-family: sans-serif;
+    /* display: contents; */
+  }
+  .value p{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  .head{
+    border-bottom: 2px dotted white;
+  }
+  
+  

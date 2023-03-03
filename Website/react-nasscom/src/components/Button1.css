@@ -1,0 +1,44 @@
+:root {
+    /* --primary: #2978da; */
+    --primary: #ffef96;
+    font-family: serif;
+  }
+  
+  .btn1 {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: serif;
+  }
+  
+  .btn1--primary {
+    /* background-color: var(--primary); */
+    /* background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%); */
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: sans-serif;
+  }
+
+  .btn1--large {
+    padding: 20px 20px 18px;
+    font-size: 16px;
+    margin: 12px 40px;
+    width: 150px;
+    font-family: serif;
+  }
+  
+  .btn1--large:hover {
+    transition: all 0.3s ease-out;
+    /* background: #dac292; */
+    background: linear-gradient(111.5deg, rgb(228, 247, 255) 21.9%, rgb(255, 216, 194) 92.2%);
+    color:#0c022f;
+    transition: 250ms;
+    font-family: serif;
+  }
+    

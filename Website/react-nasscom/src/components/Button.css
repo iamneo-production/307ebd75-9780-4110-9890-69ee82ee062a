@@ -1,0 +1,35 @@
+:root {
+    /* --primary: #2978da; */
+    --primary: #ffef96;
+
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: black;
+    border: 1px solid var(--primary);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .btn--large {
+    padding: 20px 40px 18px;
+    font-size: 16px;
+  }
+  
+  .btn--large:hover {
+    transition: all 0.3s ease-out;
+    background: #dac292;
+    color:#0c022f;
+    transition: 250ms;
+  }
+    
