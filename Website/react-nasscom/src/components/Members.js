@@ -5,6 +5,7 @@ function Members() {
   return (
     <>
       <div className="gallery">
+        <video src='/videos/video2.mp4' autoPlay loop muted></video>
         <div className="teaam">
           <h1>ORBIT LOADERS</h1>
           
